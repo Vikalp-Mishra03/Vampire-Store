@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="log">
+                <img src="img/vampire.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="img/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/top-banner1.jpg" alt="">
+                </div>
+                <div class="slide second">
+                    <img src="img/top-banner2.jpg" alt="">
+                </div>
+                <div class="slide third">
+                    <img src="img/top-banner3.jpg" alt="">
+                </div>
+                <div class="slide fourth">
+                    <img src="img/top-banner5.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!-- <div class="manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label> -->
+        </div>
+    </div>
+
+
+    <!-- --------------featured categories------------------- -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------featured products---------------------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="Product.-detail.html"> <img src="img/product-1.jpg" alt=""></a>
+                <a href="Product.-detail.html">
+                    <h4>Red T-shirt</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-11.jpg" alt="">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-12.jpg" alt="">
+                <h4>Black Trouser</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg" alt="">
+                <h4>Man Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg" alt="">
+                <h4>Men Trouser</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <!-- <i class="fa fa-star-o"></i> -->
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-4.jpg" alt="">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹ 20.00</p>
+            </div>
+
+        </div>
+        <!-- ------------------------latest product----------------------- -->
+        <div class="small-container">
+        </div>
+        <div class="title">Latest Product</div>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-10.jpg" alt="">
+                <h4>Black Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-9.jpg" alt="">
+                <h4>Roadster Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-5.jpg" alt="">
+                <h4>Gray Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-6.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-7.jpg" alt="">
+                <h4>Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <!-- <i class="fa fa-star-o"></i> -->
+                </div>
+                <p>₹ 10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-8.jpg" alt="">
+                <h4>Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+
+        </div>
+        <!-- <div class="row">
+            
+        </div> -->
+        <!-- <div class="row">
+
+            <div class="col-4 col-7">
+                <img src="img/kid7.jpg" alt="">
+                <h4>Red Frock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4 col-7">
+                <img src="img/kid8.jpg" alt="">
+                <h4>Baby Suit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 15.00</p>
+            </div>
+            <div class="col-4 col-7">
+                <img src="img/kid9.jpg" alt="">
+                <h4>Full Body</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+            <div class="col-4 col-7">
+                <img src="img/kid10.jpg" alt="">
+                <h4>Blue Frock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4 col-7">
+                <img src="img/kid11.jpg" alt="">
+                <h4>Upper</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+             
+                </div>
+                <p>₹ 10.00</p>
+            </div>
+            <div class="col-4 col-7">
+                <img src="img/kid12.jpg" alt="">
+                <h4> Skirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 20.00</p>
+            </div>
+
+        </div> -->
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="img/woman9.jpg" alt="">
+                <h4>Black Coat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/woman5.jpg" alt="">
+                <h4>Pink Coat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/woman6.jpg" alt="">
+                <h4>Pink Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/woman10.jpg" alt="">
+                <h4>Trouser</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/woman11.jpg" alt="">
+                <h4>Top</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o></i>
+                    <i class=" fa fa-star-o"></i>
+                </div>
+                <p>₹ 25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/woman12.jpg" alt="">
+                <h4>Black Top</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 50.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------person------------------- -->
+    <div class="small-container">
+        <div class="row">
+            <div class="image1">
+                <h3>Women</h3>
+            </div>
+            <div class="image2">
+                <!-- <img src="image/image-3.png" alt=""> -->
+                <h3>Men</h3>
+            </div>
+            <div class="image3">
+                <h3>Kids</h3>
+                <!-- <img src="image/kid (3).jpg" alt=""> -->
+            </div>
+        </div>
+    </div>
+    <!-- --------------offer-------------------------- -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available</p>
+                    <h1>Smart Watch</h1>
+                    <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe quos quis ipsum in quibusdam
+                        a magnam dolorum ipsa quidem fuga quas, amet, aliquid natus molestiae alias quae culpa.</small>
+                    <br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------shoe collection---------------------------- -->
+    <div class="small-container">
+        <h2 class="title">Shoe Collection</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/shoe2.jpg" alt="">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe8.jpg" alt="">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe11.jpg" alt="">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe10.jpg" alt="">
+                <h4>Jordan</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹ 300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe12.jpg" alt="">
+                <h4>Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <!-- <i class="fa fa-star-o"></i> -->
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoe9.jpg" alt="">
+                <h4>Girls Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹ 20.00</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- -----------------------new arrival-------------------------- -->
+    <h2 class="title">New Collection</h2>
+    <div class="arrival">
+        <img src="img/back.png" id="back">
+        <div class="product">
+            <div>
+                <span><img src="img/product-2.jpg"></span>
+                <span><img src="img/product-3.jpg"></span>
+                <span><img src="img/product-4.jpg"></span>
+
+            </div>
+            <div>
+                <span><img src="img/product-5.jpg"></span>
+                <span><img src="img/product-7.jpg"></span>
+                <span><img src="img/product-9.jpg"></span>
+            </div>
+        </div>
+        <img src="img/next.png" id="next">
+    </div>
+
+
+    <!-- --------------------testimonial--------------------------- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum officiis aliquid, rerum
+                        aspernatur quis id fuga quo possimus magni!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="img/user-1.png" alt="">
+                    <h3>Nami</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum officiis aliquid, rerum
+                        aspernatur quis id fuga quo possimus magni!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="img/user-2.png">
+                    <h3>Kuzan</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-qoute-left"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptatum officiis aliquid, rerum
+                        aspernatur quis id fuga quo possimus magni!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="img/user-3.png">
+                    <h3>Robin</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------brands----------------------- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/260_nike.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="img/gucci.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/red.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/adidas.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/puma.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------footer------------- -->
+    <footer>
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Dowload our App </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="img/app-store.png" alt="">
+                        <img src="img/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/vampire.png" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia repellat saepe at omnis rerum.
+                        Similique, incidunt.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Us</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Insta</li>
+                        <li>Youtube</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

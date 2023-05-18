@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vampire Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleleapis.com/css3?family=poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="log">
+                <img src="img/vampire.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <!-- <li class="input"><input type="text" placeholder="Search For Product, Brands and more"> </li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="img/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="account-page">
+        <div class="container1">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/image1.png" alt="">
+                </div>
+                <div class="col-2">
+                    <h1>Contact Us</h1>
+                    <a href="#contact" class="btn">Contact Us &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Ramngar, Nainital, INDIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 0123456789</h5>
+                        <p>Monday to Satuarday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>mishravikalp786@gmail.com</h5>
+                        <p>Email us your query </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col" id="contact">
+                <form action="form_handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------footer-------------------------- -->
+    <footer>
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Dowload our App </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="img/app-store.png" alt="">
+                        <img src="img/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/vampire.png" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia repellat saepe at omnis rerum.
+                        Similique, incidunt.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Us</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Insta</li>
+                        <li>Youtube</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- --------------javasript for toggle menu------------------------- -->
+<script src="Product.js">
+</script>
+
+</html>

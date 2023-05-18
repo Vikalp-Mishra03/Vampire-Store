@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product - Vampire Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="log">
+                <img src="img/vampire.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <!-- <li class="input"><input type="text" placeholder="Search For Product, Brands and more"> </li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="img/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!-- --------------account detail----------------- -->
+    <div class="account-page">
+        <div class="container1">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/image1.png" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Log-in</span>
+                            <span onclick="register()">Register</span>
+                            <h2 id="indicator"></h2>
+
+                            <form id="loginform">
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn">Log-in</button>
+                                <a href="">Forgot Password</a>
+                            </form>
+                            <form id="RegForm">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------footer------------- -->
+    <footer>
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Dowload our App </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="img/app-store.png" alt="">
+                        <img src="img/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/vampire.png" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia repellat saepe at
+                        omnis
+                        rerum.
+                        Similique, incidunt.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Us</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Insta</li>
+                        <li>Youtube</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Product.js"></script>
+    <script src="account.js"></script>
+
+
+</body>
+
+</html>
